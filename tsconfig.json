@@ -12,6 +12,10 @@
 		"skipLibCheck": true,
 		"isolatedModules": true,
 		"baseUrl": "src",
-		"lib": ["ESNext"]
-	}
+		"lib": ["ESNext"],
+		"declaration": true,
+		"declarationDir": "./build"
+	},"include": ["src"]
 }
+
+
